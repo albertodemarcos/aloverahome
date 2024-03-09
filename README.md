@@ -23,8 +23,7 @@ Otros
 En webapps se meten los wars de las aplicaciones java para poder ser desplegados
 Puede ser via aplicacion web o con el comando curl
 
-curl -LJO [URL_DIRECTA_AL_ARCHIVO_WAR]
-
+curl -L -o homecamarma-v1.0.0.war "https://github.com/albertodemarcos/aloverahome/releases/download/v1.0.0/homecamarma-v1.0.0.war"
 
 En ambos casos tienes que dar permisos sobre el war para que tomcat puede obtenerlo
 
