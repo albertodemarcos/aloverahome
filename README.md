@@ -27,7 +27,11 @@ curl -L -o homecamarma-v1.0.0.war "https://github.com/albertodemarcos/aloverahom
 
 En ambos casos tienes que dar permisos sobre el war para que tomcat puede obtenerlo
 
-
+Conexion wifi
+  ver todas las conexiones: nmcli connection show
+  conectar: nmcli dev wifi connect SSID_de_tu_red password contraseña
+  desconectar: nmcli connection down nombre_de_conexión
+  conectar de nuevo: nmcli connection up nombre_de_conexión
 
 
 
