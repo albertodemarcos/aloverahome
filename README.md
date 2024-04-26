@@ -33,8 +33,14 @@ Conexion wifi
   desconectar: nmcli connection down nombre_de_conexión
   conectar de nuevo: nmcli connection up nombre_de_conexión
 
+URL:
 
-
+curl -X GET http://tu-dominio.com/ 
+curl -X GET http://tu-dominio.com/inicio
+curl -X GET http://tu-dominio.com/home
+curl -X POST http://tu-dominio.com/ -H "Content-Type: application/json" -d '{"nombreUsuario": "tuNombreUsuario", "contrasena": "tuContrasena"}'
+curl -X PUT http://tu-dominio.com/actualizar -H "Content-Type: application/json" -d '{"nombreUsuario": "nombreActualizado", "contrasena": "contrasenaActualizada"}'
+curl -X DELETE http://example.com/usuario/123
 
 
 
